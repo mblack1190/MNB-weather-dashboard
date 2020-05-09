@@ -2,7 +2,7 @@
 
 https://mblack1190.github.io/MNB-weather-dashboard/
 
-https://github.com/mblack1190/MNB-weather-dashboard/tree/master/MNB-weather-dashboard
+https://github.com/mblack1190/MNB-weather-dashboard
 
 # Criteria Description:
 -GIVEN a weather dashboard with form inputs:
