@@ -12,4 +12,4 @@ https://github.com/mblack1190/MNB-weather-dashboard/tree/master/MNB-weather-dash
 WHEN I view future weather conditions for that city, THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity.
 WHEN I click on a city in the search history, THEN I am again presented with current and future conditions for that city.
 
-<img width="835" alt="C8E0E710-3F25-4CD7-ADF5-2DEB1818C27A" src="https://user-images.githubusercontent.com/59288749/80329006-8c1b4480-8806-11ea-9582-aa8b5f3a0b93.png">
+<img width="1440" alt="Screen Shot 2020-05-09 at 12 19 20 AM" src="https://user-images.githubusercontent.com/59288749/81464867-f038f380-918a-11ea-8b87-1b844e048809.png">
