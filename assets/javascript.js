@@ -26,8 +26,8 @@ $(document).ready(function(){
                     var text = $("<p>").addClass("card-text");
                     // var weatherConditions = "Weather Conditions: " + ;
                     var date = moment.unix(res2.daily[i].dt).format("MM/DD/YYYY")
-                    var minTemp = "Temperature: " + Math.round(res2.daily[i].temp.min);
-                    var maxTemp = "Temperature: " + Math.round(res2.daily[i].temp.max);
+                    var minTemp = "Min: " + Math.round(res2.daily[i].temp.min) +String.fromCharCode(176);
+                    var maxTemp = "Max: " + Math.round(res2.daily[i].temp.max) +String.fromCharCode(176);
                     
                     // var day = daily[i];
                     // var iconId = day.weather.icon;
@@ -71,7 +71,7 @@ $(document).ready(function(){
                 // var weatherConditions = "Weather Conditions: " + ;
                 var temp = "Temperature: " + Math.round(res.main.temp) +String.fromCharCode(176);
                 var humidity = "Humidity: " + res.main.humidity;
-                var windSpeed = "Wind Speed: " + res.wind.speed;
+                var windSpeed = "Wind Speed: " + Math.round(res.wind.speed);
                 // var uvIndex = "UV Index: " + res2.value;
             
                 // text.append(weatherConditions);
