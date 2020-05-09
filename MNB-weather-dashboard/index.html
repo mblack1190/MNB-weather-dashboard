@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<body class="flext-column min-100-vh">
+    <header class="hero">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="app-title display-4">Weather Dashboard</h1>
+        </div>
+    </div>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-4">
+            <div class="card">
+                <h3 class="card-header text-uppercase">Search for a City</h3>
+                <form class="example" id="cName" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search" id=cityName>
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Today<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Day 1<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Day 2<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Day 3<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Day 4<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-sm-3">
+            <div class="card">
+                <img src id="icon" alt="weather icon" style="width:100%">
+                <div class="container">
+                    <h2 class="weatherForecast">Day 5<span id="city-search-term"></span></h2>
+                    <div id="forecast-container" class="list-group">
+                        <ul>
+                            <li id="date"></li>
+                            <li id="temperature">Temperature:</li>
+                            <li id="humidity">Humidity:</li>
+                            <li id="wind-speed">Wind Speed:</li>
+                            <li id="uv-index">UV Index:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="./assets/javascript.js"></script>
+</body>
+</html>
